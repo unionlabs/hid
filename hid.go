@@ -9,6 +9,8 @@ package hid
 
 import "errors"
 
+import _ "github.com/zondax/hid/os"
+
 // ErrDeviceClosed is returned for operations where the device closed before or
 // during the execution.
 var ErrDeviceClosed = errors.New("hid: device closed")
