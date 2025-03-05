@@ -1,4 +1,5 @@
-// Package embed contains required external dependencies from ODPI-C
-package embed
+// +build require
+
+package os
 
 import "C"
