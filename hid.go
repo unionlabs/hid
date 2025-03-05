@@ -4,6 +4,8 @@
 // This file is released under the 3-clause BSD license. Note however that Linux
 // support depends on libusb, released under GNU LGPL 2.1 or later.
 
+// +build require
+
 // Package hid provides an interface for USB HID devices.
 package hid
 
